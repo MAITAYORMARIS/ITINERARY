@@ -74,7 +74,7 @@ export default function ItinerariesList() {
 
             <Container maxWidth="xl" className="detailContain" sx={{ padding: '0', marginTop: '12vh' }}>
                 {loading ?
-                    (<div className="loadItinerary"><Loading text={"Looking itineraries from travelers"} /></div>)
+                    (<div className="loadItinerary"><Loading text={"Searching itineraries from travelers"} /></div>)
                     : (
                         <>
                             <Banner city={city} />

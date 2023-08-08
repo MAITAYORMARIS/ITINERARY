@@ -64,7 +64,7 @@ function Cities() {
                         
                         )
                         
-                        : <div className="contentWaitCities"><Wait text={"Looking the most visit cities"}></Wait></div>
+                        : <div className="contentWaitCities"><Wait text={"Searching the most visit cities"}></Wait></div>
 
                     }
                     <ButtonTop />
