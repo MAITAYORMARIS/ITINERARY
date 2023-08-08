@@ -64,16 +64,18 @@
     row-gap: 32px;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 12%;
 }
 .contentWaitCities{
     width:100%;
-    height: auto;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 400px;
+    position: absolute;
+    bottom: 8vh;
+   
 }
 
 .card{
