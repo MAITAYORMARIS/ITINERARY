@@ -76,7 +76,7 @@
     height: 8%;
     z-index: 5;
     position: absolute;
-    right: 70px;
+    right: 120px;
    top: 210px; 
 }
 .imageDirection>img{
@@ -86,7 +86,7 @@
    height: 30%;
    z-index: 6;
     position: absolute;
-    right: 510px;
+    right: 545px;
    top: 100px; 
 }
 .imagePlane>img{

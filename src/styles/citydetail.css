@@ -130,6 +130,7 @@ background-color:white;
 /* padding:15px 15px 10px 15px; */
     border:1px solid #BFBFBF;
     box-shadow:5px 5px 10px rgba(0, 0, 0, 0.8);
+    transition: transform .2s; 
 }
 .galeryPic>img{
     min-width: 80%;
@@ -138,6 +139,9 @@ background-color:white;
     max-height: 80%;
     margin-top: 15px;
     
+}
+.galeryPic>img:hover{
+    transform: scale(1.2); 
 }
 .RotarIzq {
     transform:rotate(10deg);
